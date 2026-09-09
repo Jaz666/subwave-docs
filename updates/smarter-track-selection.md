@@ -185,6 +185,20 @@ focused field.
 No. Discovery sources and private selection reasoning belong in the Booth, not
 in a DJ link. The DJ's on-air job is still to present the record naturally.
 
+### What happened to the Agentic Picker?
+
+It remains part of SUB/WAVE for now. Track Shortlisting handles ordinary
+next-track discovery and selection, but the listener-request agent has not yet
+moved to the new path. That work continues to use the existing Agentic Picker.
+
+### Does this mean my AI model no longer needs to support tools?
+
+That is the direction this work is intended to support, but it is not the
+current setup. Keep using your existing LLM configuration for now, including
+tool support where your station already requires it. As more agentic work moves
+into controller-native paths, SUB/WAVE can reduce what the creative DJ model
+needs to do—but listener requests are not there yet.
+
 ## Related reading
 
 - [Building a great show](../field-guide/building-a-great-show.md)
