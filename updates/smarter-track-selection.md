@@ -32,8 +32,7 @@ DJ; it is to spend the model's attention on the judgement only it can make.
 
 ## Early local benchmark results
 
-<!-- Visual placeholder: add the “Agentic Picker vs Native Shortlist” benchmark
-graphic here when publishing the page. -->
+<img width="941" height="1672" alt="First Benchmarks" src="https://github.com/user-attachments/assets/f1ae5b20-77cd-49af-a817-074c5ebac822" />
 
 On a locally hosted SUB/WAVE station using a modest GPU and a Meta Llama 3.1
 8B Q5_K_M model, the first live samples showed a substantial improvement:
@@ -134,8 +133,7 @@ choice alongside the response time that feels right for your station.
 
 ## Give a DJ a musical instinct
 
-<!-- Screenshot placeholder: DJ identity editor → Musical Leanings, showing a
-short private description of a presenter's musical preferences. -->
+<img width="499" height="174" alt="image" src="https://github.com/user-attachments/assets/b0991cbb-65cb-4eb3-bb50-8bd0f024791b" />
 
 **Musical Leanings** let you describe the kinds of choices a presenter tends
 to favour—for example, overlooked album tracks, gentle changes in energy, or
