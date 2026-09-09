@@ -22,7 +22,7 @@ There is nothing wrong with that starting point. The useful next step is
 separating Bob's **voice**, his **show's territory**, and his **musical
 instinct** so that each part does one clear job.
 
-<!-- Image placeholder: add Bob’s DJ portrait here when publishing the guide. -->
+<img width="25%" height="25%" alt="bob" src="https://github.com/user-attachments/assets/77c6b3b7-141f-437d-a8cf-b756fcce25a1" />
 
 Bob's original Soul, shortened to the parts that matter here, reads:
 
@@ -161,8 +161,7 @@ track was selected. Keeping the two fields separate makes both more useful:
 the Soul remains a description of a person, while the Leaning remains a small
 piece of editorial taste.
 
-<!-- Screenshot placeholder: DJ identity editor, showing the Soul and Musical
-Leanings fields together. -->
+<img width="517" height="571" alt="image" src="https://github.com/user-attachments/assets/9b7bf38e-83f3-4d9e-a0a1-b710481a30d1" />
 
 ## How much to write
 
