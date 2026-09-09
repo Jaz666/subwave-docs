@@ -12,6 +12,7 @@ Planned guides:
 
 - [Writing a great DJ brief](writing-a-great-dj-brief.md)
 - [Building a great show](building-a-great-show.md)
+- [Giving your DJ Musical Leanings](giving-your-dj-musical-leanings.md)
 - Shaping a station's musical identity
 - Tuning DJ behaviour without over-controlling it
 - Learning from the Booth Log

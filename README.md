@@ -24,6 +24,7 @@ Experience-led advice for shaping a station, rather than a reference manual.
 - [Start the Field Guide](field-guide/README.md)
 - [Writing a great DJ brief](field-guide/writing-a-great-dj-brief.md) *(coming soon)*
 - [Building a great show](field-guide/building-a-great-show.md) *(coming soon)*
+- [Giving your DJ Musical Leanings](field-guide/giving-your-dj-musical-leanings.md)
 
 ## Frequently asked questions
 
