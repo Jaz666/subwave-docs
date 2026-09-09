@@ -70,6 +70,8 @@ link:
 - **Occasional** makes them available for roughly one in four eligible links.
 - **Rare** makes them available for roughly one in six eligible links.
 
+<img width="564" height="207" alt="image" src="https://github.com/user-attachments/assets/a12d9d5f-b61d-4c27-9ab7-8924b3e0f10a" />
+
 This is a variety control, not a switch for whether a year is trustworthy. The
 year remains verified in the library; the setting simply helps prevent it from
 becoming the DJ's favourite piece of connective tissue.
