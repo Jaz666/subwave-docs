@@ -32,7 +32,7 @@ DJ; it is to spend the model's attention on the judgement only it can make.
 
 ## Early local benchmark results
 
-<img width="941" height="1672" alt="First Benchmarks" src="https://github.com/user-attachments/assets/f1ae5b20-77cd-49af-a817-074c5ebac822" />
+<img width="33%" height="33%" alt="First Benchmarks" src="https://github.com/user-attachments/assets/f1ae5b20-77cd-49af-a817-074c5ebac822" />
 
 On a locally hosted SUB/WAVE station using a modest GPU and a Meta Llama 3.1
 8B Q5_K_M model, the first live samples showed a substantial improvement:
