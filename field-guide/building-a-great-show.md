@@ -56,9 +56,6 @@ If every source is a tightly locked playlist, the station may become reliable
 but brittle. If nothing has a centre, it may become varied but anonymous. Good
 programming lives between those extremes.
 
-<!-- Screenshot placeholder: show editor, showing a show’s structured music
-settings alongside its Current brief and playlist controls. -->
-
 ## Let the brief describe the listener's experience
 
 The show brief is where the programme becomes human. Give it the listener's
