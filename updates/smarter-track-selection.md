@@ -107,8 +107,7 @@ established a safe musical field.
 
 ## Choose the breadth of the search
 
-<!-- Screenshot placeholder: Settings → DJ behaviour → Track selection, showing
-the Track Shortlist passes control at its default of 3. -->
+<img width="565" height="250" alt="image" src="https://github.com/user-attachments/assets/d5914736-2835-4dc8-a631-2f43c27c471f" />
 
 In **Settings → DJ behaviour → Track selection**, set **Track Shortlist
 passes** from one to five:
