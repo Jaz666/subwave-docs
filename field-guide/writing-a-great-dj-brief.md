@@ -115,9 +115,6 @@ Bob's rewritten afternoon brief might be:
 This does not select the music by itself. It tells Bob how to turn a valid
 musical field into an afternoon listeners recognise.
 
-<!-- Screenshot placeholder: show editor, showing the structured music settings
-alongside the Current brief field. -->
-
 ## Give co-hosts a reason to be there
 
 When more than one presenter appears, the brief should give them distinct
