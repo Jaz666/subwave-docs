@@ -75,8 +75,7 @@ point of view does not become invented information.
 
 ## What you can control
 
-<!-- Screenshot placeholder: Settings → DJ behaviour → Link style, showing the
-Regular, Occasional and Rare release-year mention controls. -->
+<img width="564" height="207" alt="image" src="https://github.com/user-attachments/assets/a12d9d5f-b61d-4c27-9ab7-8924b3e0f10a" />
 
 In **Settings → DJ behaviour → Link style**, choose how often release years are
 made available for eligible links:
@@ -84,8 +83,6 @@ made available for eligible links:
 - **Regular** keeps them available whenever SUB/WAVE has a trusted year.
 - **Occasional** makes them available for roughly one in four eligible links.
 - **Rare** makes them available for roughly one in six eligible links.
-
-<img width="564" height="207" alt="image" src="https://github.com/user-attachments/assets/a12d9d5f-b61d-4c27-9ab7-8924b3e0f10a" />
 
 This is a control for variety, not for truth. The library's verified year does
 not change; the setting simply prevents a useful detail becoming a repeated
