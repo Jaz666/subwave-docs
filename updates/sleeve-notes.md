@@ -76,9 +76,6 @@ This is a variety control, not a switch for whether a year is trustworthy. The
 year remains verified in the library; the setting simply helps prevent it from
 becoming the DJ's favourite piece of connective tissue.
 
-<!-- Screenshot placeholder: Settings → DJ behaviour → Link style, showing the
-Regular, Occasional and Rare release-year mention controls. -->
-
 ## What Sleeve Notes are not
 
 Sleeve Notes do not search the web, scrape music sites, or promise a fuller
