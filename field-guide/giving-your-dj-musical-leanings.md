@@ -32,7 +32,7 @@ To get the best result, place each part of Bob's draft into its proper setting:
 |---|---|---|
 |“Warm, knowledgeable and enthusiastic... loves explaining what makes a record special.”|**DJ Soul**|Shapes how Bob speaks, reacts, and presents on air.|
 |Classic rock, alternative, indie, Britpop, and post-punk|**Show Settings**|Establishes the programme's broad musical territory and genre filters.|
-|“Dislikes manufactured pop and commercial chart music”|*Show Filters & Rules**|Hard boundary rules that belong in show guards, not soft close-call preferences.|
+|“Dislikes manufactured pop and commercial chart music”|**Show Filters & Rules**|Hard boundary rules that belong in show guards, not soft close-call preferences.|
 |Deeper album cuts, overlooked gems, melodic guitars, and dynamic builds|**Musical Leanings**|Private tiebreaker criteria used to pick a winner between eligible tracks.|
 |Specific favourite artists (R.E.M., Radiohead, Pink Floyd, etc.)|**Show Playlists**|Defines an actual pool of library candidates rather than relying on prose.|
 
