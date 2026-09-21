@@ -60,5 +60,27 @@ While both tracks fit the show, Radiohead’s “Exit Music (For a Film)” wins
 
 Musical Leanings solved a close call using Bob's editorial taste, without altering how he speaks or overriding station rules.
 
-<img width="50%" height="50%" alt="before" src="https://github.com/user-attachments/assets/df45053d-fc73-4adb-b206-bf24d96c1358" /> | <img width="50%" height="50%" alt="after" src="https://github.com/user-attachments/assets/bdc13137-5e27-4849-b0f4-d929f94238b8" />
+<img width="50%" height="50%" alt="before" src="https://github.com/user-attachments/assets/df45053d-fc73-4adb-b206-bf24d96c1358" /><img width="50%" height="50%" alt="after" src="https://github.com/user-attachments/assets/bdc13137-5e27-4849-b0f4-d929f94238b8" />
 
+# How to Write Effective Leanings
+Start with one or two concise sentences. Describe stylistic patterns and sonic qualities, not rigid lists of demands or individual track titles.
+
+- Too Vague: “Has great taste and plays good music.”
+- Too Controlling: “Always choose 1980s post-punk, never play anything slow, and always pick a deep cut.”
+- Just Right: “Enjoys melodic post-punk, deep soul cuts, and surprising cover versions. Favors the less obvious record when it keeps the show moving naturally.”
+
+# Guests and Shared Shows
+Guest presenters can also have Musical Leanings. Guest preferences provide a light, temporary nudge during a close decision, allowing a guest appearance to feel sonically distinct without taking control away from the main host or show brief.
+
+Station-level settings ensure the host's Leanings remain primary, preventing guest preferences from overriding the core identity of the programme.
+
+Don't worry, having a guest DJ known for their Death Metal Musical Leanings won't suddenly queue up something extreme during a chilled out afternoon show, the show settings always come first!
+
+# A Quick Check Before Saving
+
+Ask three questions before saving your DJ's Musical Leanings:
+1. **Does it help choose between two already-suitable records?**
+2. **Does it describe a soft tendency rather than a hard command?**
+3. **Would the station still sound right if the DJ followed it only occasionally?**
+
+If the answer to all three is yes, your setting is dialed in correctly!
