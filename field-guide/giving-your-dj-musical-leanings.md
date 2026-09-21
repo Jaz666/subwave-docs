@@ -35,3 +35,30 @@ To get the best result, place each part of Bob's draft into its proper setting:
 |“Dislikes manufactured pop and commercial chart music”|*Show Filters & Rules**|Hard boundary rules that belong in show guards, not soft close-call preferences.|
 |Deeper album cuts, overlooked gems, melodic guitars, and dynamic builds|**Musical Leanings**|Private tiebreaker criteria used to pick a winner between eligible tracks.|
 |Specific favourite artists (R.E.M., Radiohead, Pink Floyd, etc.)|**Show Playlists**|Defines an actual pool of library candidates rather than relying on prose.|
+
+# Case Study: R.E.M. vs. Radiohead
+To see how Musical Leanings works in practice, consider a scenario where Subwave’s flow engine needs an atmospheric, mid-tempo 1990s alternative track to bridge a transition.
+
+The system filters your library and surfaces two candidate tracks that both meet the current energy, mood, rotation, and show rules:
+
+1. R.E.M. — “Try Not to Breathe” (Automatic for the People, 1992)
+    - Profile: Melancholic, acoustic-driven mid-tempo track with prominent basslines, rich backing harmonies, and a reflective tone.
+2. Radiohead — “Exit Music (For a Film)” (OK Computer, 1997)
+    - Profile: Slow-building acoustic ballad that opens with sparse fingerpicking before swelling into a heavy, dramatic, bass-driven climax.
+  
+<img width="50%" height="50%" alt="MusicalLeanings" src="https://github.com/user-attachments/assets/87e680e5-734f-4b19-b8da-05e1b66d3794" />
+
+## The Problem
+Because both tracks satisfy all active show rules and energy constraints, the base selection engine sees a dead heat. Without an editorial tiebreaker, the winner is decided by random sampling.
+
+## The Solution
+We update Bob's Musical Leanings to express a specific stylistic instinct (without naming bands directly):
+> “A strong preference for 1990s alternative rock, post-punk, and progressive rock. Favors darker, cinematic builds, melancholic crescendoes, tense acoustic arrangements, and dramatic dynamic shifts over straightforward folk-pop harmonies. Leans toward deeper album cuts and overlooked gems with moody, atmospheric production.”
+
+## The Outcome
+While both tracks fit the show, Radiohead’s “Exit Music (For a Film)” wins the tiebreaker. Its sparse opening fingerpicking that swells into a dark, fuzz-bass crescendo matches the specific Leanings descriptors ("cinematic builds," "melancholic crescendoes," "dramatic dynamic shifts") far better than R.E.M.'s steady folk-rock groove.
+
+Musical Leanings solved a close call using Bob's editorial taste, without altering how he speaks or overriding station rules.
+
+<img width="50%" height="50%" alt="before" src="https://github.com/user-attachments/assets/df45053d-fc73-4adb-b206-bf24d96c1358" /> | <img width="50%" height="50%" alt="after" src="https://github.com/user-attachments/assets/bdc13137-5e27-4849-b0f4-d929f94238b8" />
+
