@@ -1,3 +1,5 @@
+# PENDING REWRITE TO ACCOUNT FOR AGENTIC & SHORTLIST PICKER CHOICE
+
 # Smarter track selection
 
 Choosing the next record is a two-part job. First, the station needs to find
