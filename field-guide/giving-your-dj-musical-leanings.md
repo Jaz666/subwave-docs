@@ -76,6 +76,23 @@ Station-level settings ensure the host's Leanings remain primary, preventing gue
 
 Don't worry, having a guest DJ known for their Death Metal Musical Leanings won't suddenly queue up something extreme during a chilled out afternoon show, the show settings always come first!
 
+# How to Tell Musical Leanings are working?
+
+You'll first notice evidence of your new DJ Musical Leanings working in your DJ Booth, you should start to see references to your DJ's tastes in the **Pick Reasons**, the below example is from a station using the Shortlist Picker, the wording from the Agentic Picker may be slightly different.
+
+<img width="456" height="82" alt="image" src="https://github.com/user-attachments/assets/5f4f53d3-d604-4896-953c-821ebfedcdd2" />
+
+This means two or more equally suitable tracks were suggested, but the DJ chose a track by _English Teacher_ over another.
+
+**Want to know more?**
+
+The debug screen contains more detailed data on the Picking Choices, and you'll see a handy **Leanings** highlighted flag next to the LLM Call to look for.
+
+<img width="802" height="202" alt="image" src="https://github.com/user-attachments/assets/38ffc6fb-eaf0-4dd6-bb04-51480b16f719" />
+
+Expand the **Verified Selection** section for the decision.
+In our example here, Lucy had the choice between modern Indie band _English Teacher_, or the 90s Indie band _Carter USM_. Both tracks were equally suitable for her show, but her Leanings made _English Teacher_ the choice of the moment.
+
 # A Quick Check Before Saving
 
 Ask three questions before saving your DJ's Musical Leanings:
