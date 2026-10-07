@@ -1,5 +1,8 @@
 # Giving your DJ Musical Leanings
 
+<img width="1923" height="818" alt="ChatGPT Image 7 Oct 2026, 10_44_08" src="https://github.com/user-attachments/assets/be312d72-64d7-4ca9-81bc-1cd5331716c4" />
+
+
 **Musical Leanings** give a DJ private editorial judgment without asking a speaking persona to run the station. They provide a short description of the kinds of _eligible_ records a presenter tends to favor when there is a genuine close call.
 
 They are deliberately separate from a DJ's **Soul**. A Soul tells Subwave how a presenter sounds and relates to listeners on air. Musical Leanings help the DJ choose between several records that already satisfy the current show rules, rotation, safety protections, and library guards.
