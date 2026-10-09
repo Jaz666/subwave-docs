@@ -4,9 +4,6 @@
 
 # Agentic Picker vs Shortlist Picker — differences
 
-Updated 9 October 2026. Includes the current local changes intended for PR #1687,
-through feature commit `0f40c67f` (integrated station `c448291a`).
-
 This table lists differences in method, including the Shortlist alternative.
 Shared behaviour is omitted. Conditional capabilities depend on the active show,
 available library services and configured model/provider.
