@@ -34,6 +34,8 @@ the agent may make. The **Agent deadline** limits how long an Agentic pick may
 run before the station uses its safe fallback. If you change either setting,
 listen to several picks before deciding whether it improves your station.
 
+### The Maze Analogy
+
 ![A capable DJ model explores the maze of discovery methods; a smaller model can find the same maze overwhelming.](https://raw.githubusercontent.com/Jaz666/subwave-docs/main/assets/illustrations/agentic-tools-maze.webp)
 
 Think of each discovery tool as a signposted path through a maze. A capable
@@ -64,6 +66,8 @@ that struggle with tool calling, or stations that want less model work during
 each pick. It can also reduce cloud token use. It does **not** make library
 searches free: the Controller still has to run them, and actual pick times
 depend on your library, model and hardware.
+
+### Back to the Maze
 
 ![The Controller follows selected discovery routes and brings eligible tracks to the DJ, who chooses from the shortlist.](https://raw.githubusercontent.com/Jaz666/subwave-docs/main/assets/illustrations/track-shortlist-maze.webp)
 
