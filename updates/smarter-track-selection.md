@@ -2,9 +2,9 @@
 
 ## TLDR - The Headline Difference - GPU vs CPU
 
-- The **Agentic Picker** runs both Track Discovery and the Final Picking Decision entirely in either your local GPU, or on a Cloud LLM. This requires a model with at least 12 Billion Parameters, capable of Tool Calls to run reliably.
-- The Shortlist Picker runs the Track Discovery on your CPU (typically faster than on a GPU) and then hands the Final Decision over to either your local GPU or Cloud LLM. This reduces the requirements of a large Parameter Model, and needs no Tool functionality. A model as small as 3 Billion Parameters is capable of running the Shortlist Picker, but we'd recommend a little higher than that for AI DJ Roleplaying.
-- The Agentic Picker has more creative freedom to explore your library, and may surface tracks that the Shortlist Picker might overlook.
+- **Agentic Tools:** the **GPU** DJ model decides which discovery tools to use, compares their results and chooses a track. With sufficient discovery rounds, it can follow a promising result with another search.
+- **Track Shortlist:** the **CPU** controller plans and runs discovery, then asks the **GPU** DJ model to choose from the eligible tracks it found. This reduces the model’s workload and can make smaller models more practical.
+- If the Tool Calls used by the **Agentic Picker** frequently timeout or error on your station, switch to the **Track Shortlist Picker**.
 
 <img width="1923" height="817" alt="image" src="https://github.com/user-attachments/assets/2f8021e7-f435-4017-bbe7-22dbee45ece6" />
 
