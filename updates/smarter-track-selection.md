@@ -1,5 +1,12 @@
 # Choosing how SUB/WAVE selects music
 
+## TLDR - The Headline Difference - GPU vs CPU
+
+- The **Agentic Picker** runs both Track Discovery and the Final Picking Decision entirely in either your local GPU, or on a Cloud LLM. This requires a model with at least 12 Billion Parameters, capable of Tool Calls to run reliably.
+- The Shortlist Picker runs the Track Discovery on your CPU (typically faster than on a GPU) and then hands the Final Decision over to either your local GPU or Cloud LLM. This reduces the requirements of a large Parameter Model, and needs no Tool functionality. A model as small as 3 Billion Parameters is capable of running the Shortlist Picker, but we'd recommend a little higher than that for AI DJ Roleplaying.
+
+--------
+
 SUB/WAVE has two ways to find the next track. With **Agentic Tools**, the DJ's
 language model explores your library through discovery tools and chooses a
 record. With **Track Shortlist**, the Controller explores first and gives the
