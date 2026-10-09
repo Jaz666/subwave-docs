@@ -2,8 +2,6 @@
 
 ## Key Differences
 
-# Agentic Picker vs Shortlist Picker — differences
-
 This table lists differences in method, including the Shortlist alternative.
 Shared behaviour is omitted. Conditional capabilities depend on the active show,
 available library services and configured model/provider.
