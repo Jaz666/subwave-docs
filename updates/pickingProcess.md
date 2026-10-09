@@ -1,11 +1,50 @@
 # Agentic Picker vs Shortlist Picker
 
-Updated 9 October 2026. This comparison includes the morning's local changes,
-including targeted-search grounding, compact conversation guidance and
-intro-length support, as intended for PR #1687.
+## Key Differences
 
-Prepared against local feature commit `0f40c67f`; the integrated station is at
-`c448291a`.
+# Agentic Picker vs Shortlist Picker — differences
+
+Updated 9 October 2026. Includes the current local changes intended for PR #1687,
+through feature commit `0f40c67f` (integrated station `c448291a`).
+
+This table lists differences in method, including the Shortlist alternative.
+Shared behaviour is omitted. Conditional capabilities depend on the active show,
+available library services and configured model/provider.
+
+| Area | Agentic Picker | Shortlist Picker's alternative |
+|---|---|---|
+| Choosing discovery tools | The model selects tools and their arguments; controller code executes them. | Controller code chooses and executes a bounded source plan. The model receives candidates without executable discovery tools. |
+| Discovery spread | Prompt guidance encourages the model to use several complementary sources. | Code rotates sources across show context, continuity and variety, within the configured number of passes. |
+| Targeted searches | The model constructs queries during discovery from the brief and session context. | An optional tool-free preparation call extracts up to three queries from explicit brief requests. Code validates supporting quotations and caches the result for the airing, including an empty result. |
+| Refining discovery after results | Can inspect results and change searches when the provider permits further discovery rounds. | No equivalent adaptive query rewriting within a pick. Code runs the planned passes and bounded recovery sources; prepared queries remain fixed until the brief or airing changes. |
+| Thin discovery results | Tool results describe misses; the model may try another source if it has discovery rounds remaining. | Code automatically adds available starred/random recovery sources when fewer than four balanced candidates remain. Shared fallback handles a still-unusable result. |
+| Conversation continuity | Reads the wider session window, including earlier events and DJ turns. | Receives up to three short, already-aired editorial remarks. Routine announcements, private picking reasons and raw listener messages are excluded. |
+| Set history and current situation | Reads the set's arc and contextual information through session messages and picking-event guidance. | Receives explicit compact recent-play, predecessor, time/weather/festival and listener-favourite information, where available. |
+| Playlist and journey discovery priority | The model is instructed to lead with the relevant playlist, prepared catalogue or journey tool. Shared restrictions enforce eligibility. | Code gives directed sources priority and reserves a pass for a soft playlist when appropriate. The choosing model receives corresponding preference guidance. |
+| Exploration picks | The model is nudged to call deepCuts and consider a fitting discovery. | Code prioritises deepCuts in the discovery plan and gives the choosing model a brief exploration cue. Runs and journeys retain precedence. |
+| Artist balance across candidates | Uses shared source-level caps and final artist-variety guards. | Also caps the merged candidate list at three tracks per artist, with strict-playlist and prepared-episode exemptions. |
+| Tempo/key ordering | The model judges compatibility from the supplied facts; the Agentic route adds no whole-list compatibility sort. | Code softly orders the merged list by measured transition fit before the model chooses, using the mix-run target when available. |
+| Repeatedly offered but unchosen tracks | Has airplay history and ordinary variety guidance, without the Shortlist offer penalty. | Applies a decaying preference penalty to repeated offers. This changes ordering, not eligibility. |
+| Initial choosing task | Discovery and the preliminary choice happen inside the model's agent run. | Normally one structured choosing call over the completed candidate list. Optional search preparation, Leanings review and corrective calls are separate. |
+| Selection-reason wording | Returns a short reason, subsequently checked and associated with the verified chosen track. | Returns a musical clause; the controller adds the verified title/artist and substitutes neutral wording if the clause is unsuitable. |
+| Intro-length guidance | Receives known measured intro length among the candidate facts. | Now receives the same measurement, with explicit guidance to consider speaking space softly when a link is planned. Musical flow retains priority. |
+| Failed corrective choice | Shared ID repair and constrained re-picking apply; a failed Agentic corrective call returns no replacement. | Uses the same repair and constrained re-picking, but can choose the highest-ranked eligible corrective candidate in code if its model fails. |
+| Choosing-model failure | After recovery attempts fail, the route falls back to the shared pool. | Can immediately choose the highest-ranked shortlist track in code, with a neutral reason and no transition effect. The failure still counts toward the shared circuit breaker. |
+| Discovery deadline | One deadline covers the agent run and its internal recovery attempts. | Uses bounded pass counts and individual service/model request timeouts; it has no equivalent overall agent-run deadline. |
+| Discovery diagnostics | Records the model's actual discovery-tool calls and responses. | Records controller source runs, arguments, status, returned/accepted counts and timings alongside the choosing-model record. |
+
+The main capability without a direct Shortlist equivalent is **adaptive
+discovery within a pick**: a model reading an unexpected result and deciding
+to pursue a different query. Agentic can do this only when its provider's
+discovery-round allowance permits it. Shortlist instead uses planned source
+rotation, validated prepared queries and automatic recovery sources.
+
+Both methods share the show restrictions, recency rules, Musical Leanings
+review and replacement validation, artist/album guards, isolated link writer,
+speech-budget checks and queue-admission checks. Both now expose measured intro
+length to the choosing model.
+
+## Discovery - Pick - Queue Timeline
 
 **✓** means the step applies when its conditions are met. **—** means that
 particular step is absent. Optional and recovery steps do not happen on every
